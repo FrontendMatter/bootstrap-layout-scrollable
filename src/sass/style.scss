@@ -1,0 +1,47 @@
+///////////////
+// SIMPLEBAR //
+///////////////
+
+.simplebar-track {
+	width: $simplebar-width;
+	.simplebar-scrollbar {
+		background: $simplebar-bg;
+	}
+}
+
+.simplebar.horizontal .simplebar-track .simplebar-scrollbar {
+	height: $simplebar-width;
+}
+
+////////////////////
+// LAYOUT CONTENT //
+////////////////////
+
+.layout-content > .simplebar-scroll-content {
+	bottom: $grid-gutter-width;
+}
+
+////////////////////
+// LAYOUT SPACING //
+////////////////////
+
+.ls-top > .layout-content > .simplebar-scroll-content {
+	top: $font-size-root * strip-unit($grid-gutter-width);
+}
+.top-navbar > .layout-content > .simplebar-scroll-content {
+	top: $navbar-height;
+}
+.ls-top-navbar > .layout-content > .simplebar-scroll-content {
+	top: $navbar-height + ($font-size-root * strip-unit($grid-gutter-width));
+}
+
+///////////////////
+// SIDEBAR SKINS //
+///////////////////
+
+.sidebar-dark .simplebar-track .simplebar-scrollbar {
+	background: $sidebar-dark-simplebar-bg;
+}
+.sidebar-light .simplebar-track .simplebar-scrollbar {
+	background: $sidebar-light-simplebar-bg;
+}

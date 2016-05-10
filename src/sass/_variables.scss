@@ -1,0 +1,14 @@
+///////////////
+// SIMPLEBAR //
+///////////////
+
+$simplebar-width:                   5px !default;
+$simplebar-bg:                      #6c6e71 !default;
+$sidebar-dark-simplebar-bg:         #fff !default;
+$sidebar-light-simplebar-bg:        $simplebar-bg !default;
+
+//////////////////////
+// BOOTSTRAP LAYOUT //
+//////////////////////
+
+@import 'bootstrap-layout/src/sass/variables';

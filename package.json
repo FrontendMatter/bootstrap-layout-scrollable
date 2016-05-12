@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-layout-scrollable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap Layout integration with Simplebar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.2",
-    "bootstrap-layout": "1.0.0-alpha.6",
+    "bootstrap-layout": "1.0.0-alpha.8",
     "sass-md-colors": "^1.0.0"
   },
   "keywords": [

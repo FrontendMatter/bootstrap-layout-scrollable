@@ -5,7 +5,7 @@ import {
 	SCROLLABLE_EVENTS 
 } from './config'
 
-class Scrollable {
+export class Scrollable {
 
 	/**
 	 * Scrollable constructor
@@ -82,7 +82,4 @@ class Scrollable {
 }
 
 // export instance
-export default new Scrollable()
-
-// export class
-export { Scrollable }
+export let scrollable = new Scrollable()

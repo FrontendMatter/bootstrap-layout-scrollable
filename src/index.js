@@ -2,10 +2,10 @@
 import './sass/style'
 
 // COMPONENTS
-import Scrollable from './js/scrollable'
+import { scrollable } from './js/scrollable'
 
-// EXPORT ES6
-export default Scrollable
+// EXPORT LIBRARIES
+export { scrollable, Scrollable } from './js/scrollable'
 
-// EXPORT ES5
-module.exports = exports.default
+// EXPORT DEFAULT
+export default { scrollable }
